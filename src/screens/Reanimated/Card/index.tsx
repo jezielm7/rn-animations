@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 
 import {
   SafeAreaView,
@@ -8,7 +8,11 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import Animated, { useAnimatedStyle, useSharedValue, withSpring } from 'react-native-reanimated';
+import Animated, {
+  useAnimatedStyle,
+  useSharedValue,
+  withSpring
+} from 'react-native-reanimated';
 
 function ReanimatedCard() {
   const offset = useSharedValue(0);
