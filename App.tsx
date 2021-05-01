@@ -1,8 +1,8 @@
 import React from 'react';
-import { View } from 'react-native';
+import StackRouter from './src/routes/stack.routes';
 
 const App = () => {
-  return <View />;
+  return <StackRouter />;
 }
 
 export default App;
