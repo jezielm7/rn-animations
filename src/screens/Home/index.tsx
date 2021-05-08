@@ -1,10 +1,11 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 
 import {
   View,
   Text,
-  TouchableOpacity
+  TouchableOpacity,
 } from 'react-native';
 
 import styles from './styles';

@@ -12,6 +12,8 @@ target 'RnAnimations' do
     :hermes_enabled => false
   )
 
+  pod 'lottie-react-native', :path => '../node_modules/lottie-react-native'
+
   target 'RnAnimationsTests' do
     inherit! :complete
     # Pods for testing

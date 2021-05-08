@@ -1,4 +1,5 @@
-import { StyleSheet } from "react-native";
+/* eslint-disable prettier/prettier */
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
@@ -15,10 +16,9 @@ const styles = StyleSheet.create({
   btnContainer: {
     marginTop: 50,
     marginLeft: 20,
-    flexDirection: 'row',
   },
   btnSection: {
-    marginRight: 20,
+    marginTop: 20,
   },
   button: {
     width: 200,
